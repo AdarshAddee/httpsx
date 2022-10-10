@@ -9,7 +9,7 @@ apt update
 ```
 
 ```
-apt upgrade
+apt upgrade -y
 ```
 
 ```
@@ -33,7 +33,12 @@ python main.py
 
 Help page will be opened and you will get all commands with example for your better understanding!
 
-### Thank You for using this tool!
+# One Line Install
+```
+apt update && apt upgrade -y && apt install git python -y && git clone https://github.com/AdarshAddee/https.git
+```
+
+### Apka Sukriya!
 
 
 
