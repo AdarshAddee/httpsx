@@ -68,7 +68,7 @@ def banner():
     banners = [banner1, banner2, banner3, banner4]
     print(random.choice(banners))
     print("[*] Created by Adarsh Addee!!!")
-    print("[*] Create any link full accessible!!!")
+    print("[*] Make any link full accessible!!!")
     print("[*] You can use a file to create URL and save output!!!")
     print()
 
