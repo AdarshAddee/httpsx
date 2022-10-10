@@ -2,7 +2,7 @@ import sys
 import argparse
 import random
 
-parser = argparse.ArgumentParser(description="[*] For bug bounty hunter!!!", usage="%(prog)s -f file -o output", epilog="[*] %(prog)s -f file.txt -o output.txt")
+parser = argparse.ArgumentParser(usage="%(prog)s -f file -o output", epilog="[*] %(prog)s -f file.txt -o output.txt")
 
 parser.add_argument("-u", "--url",
                     metavar="url",
